@@ -62,6 +62,7 @@ private[netty] case class RpcOutboxMessage(
   private var requestId: Long = _
 
   override def sendWith(client: TransportClient): Unit = {
+    logError(content)
     this.client = client
     this.requestId = client.sendRpc(content, this)
   }
