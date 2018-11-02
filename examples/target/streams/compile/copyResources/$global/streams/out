@@ -1,0 +1,10 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/examples/src/main/resources/full_user.avsc,/usr/local/spark-2.3.2-bin-hadoop2.7/examples/target/scala-2.11/classes/full_user.avsc)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/examples/src/main/resources/user.avsc,/usr/local/spark-2.3.2-bin-hadoop2.7/examples/target/scala-2.11/classes/user.avsc)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/examples/src/main/resources/people.txt,/usr/local/spark-2.3.2-bin-hadoop2.7/examples/target/scala-2.11/classes/people.txt)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/examples/src/main/resources/employees.json,/usr/local/spark-2.3.2-bin-hadoop2.7/examples/target/scala-2.11/classes/employees.json)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/examples/src/main/resources/people.csv,/usr/local/spark-2.3.2-bin-hadoop2.7/examples/target/scala-2.11/classes/people.csv)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/examples/src/main/resources/kv1.txt,/usr/local/spark-2.3.2-bin-hadoop2.7/examples/target/scala-2.11/classes/kv1.txt)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/examples/src/main/resources/people.json,/usr/local/spark-2.3.2-bin-hadoop2.7/examples/target/scala-2.11/classes/people.json)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/examples/src/main/resources/users.avro,/usr/local/spark-2.3.2-bin-hadoop2.7/examples/target/scala-2.11/classes/users.avro)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/examples/src/main/resources/users.parquet,/usr/local/spark-2.3.2-bin-hadoop2.7/examples/target/scala-2.11/classes/users.parquet)[0m

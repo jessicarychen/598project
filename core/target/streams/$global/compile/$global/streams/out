@@ -1,0 +1,42 @@
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/scheduler/StageInfo.scala:59: value attemptId in class StageInfo is deprecated: Use attemptNumber instead[0m
+[0m[[33mwarn[0m] [0m  def attemptNumber(): Int = attemptId[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/SparkContext.scala:1725: method getExecutorStorageStatus in class SparkContext is deprecated: This method may change or be removed in a future release.[0m
+[0m[[33mwarn[0m] [0m    StorageUtils.updateRddInfo(rddInfos, getExecutorStorageStatus)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/storage/StorageUtils.scala:303: class StorageStatus in package storage is deprecated: This class may be removed or made private in a future release.[0m
+[0m[[33mwarn[0m] [0m  def updateRddInfo(rddInfos: Seq[RDDInfo], statuses: Seq[StorageStatus]): Unit = {[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/storage/StorageUtils.scala:323: class StorageStatus in package storage is deprecated: This class may be removed or made private in a future release.[0m
+[0m[[33mwarn[0m] [0m  def getRddBlockLocations(rddId: Int, statuses: Seq[StorageStatus]): Map[BlockId, Seq[String]] = {[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/storage/BlockManagerMasterEndpoint.scala:292: class StorageStatus in package storage is deprecated: This class may be removed or made private in a future release.[0m
+[0m[[33mwarn[0m] [0m  private def storageStatus: Array[StorageStatus] = {[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/storage/BlockManagerMasterEndpoint.scala:294: class StorageStatus in package storage is deprecated: This class may be removed or made private in a future release.[0m
+[0m[[33mwarn[0m] [0m      new StorageStatus(blockManagerId, info.maxMem, Some(info.maxOnHeapMem),[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/util/AccumulatorV2.scala:492: trait AccumulableParam in package spark is deprecated: use AccumulatorV2[0m
+[0m[[33mwarn[0m] [0m    param: org.apache.spark.AccumulableParam[R, T]) extends AccumulatorV2[T, R] {[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/util/AccumulatorV2.scala:492: trait AccumulableParam in package spark is deprecated: use AccumulatorV2[0m
+[0m[[33mwarn[0m] [0m    param: org.apache.spark.AccumulableParam[R, T]) extends AccumulatorV2[T, R] {[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/storage/BlockManagerMaster.scala:169: class StorageStatus in package storage is deprecated: This class may be removed or made private in a future release.[0m
+[0m[[33mwarn[0m] [0m  def getStorageStatus: Array[StorageStatus] = {[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/storage/BlockManagerMaster.scala:170: class StorageStatus in package storage is deprecated: This class may be removed or made private in a future release.[0m
+[0m[[33mwarn[0m] [0m    driverEndpoint.askSync[Array[StorageStatus]](GetStorageStatus)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/api/r/RBackend.scala:99: method group in class AbstractBootstrap is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m    if (bootstrap != null && bootstrap.group() != null) {[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/api/r/RBackend.scala:100: method group in class AbstractBootstrap is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m      bootstrap.group().shutdownGracefully()[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/api/r/RBackend.scala:102: method childGroup in class ServerBootstrap is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m    if (bootstrap != null && bootstrap.childGroup() != null) {[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/core/src/main/scala/org/apache/spark/api/r/RBackend.scala:103: method childGroup in class ServerBootstrap is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[33mwarn[0m] [0m      bootstrap.childGroup().shutdownGracefully()[0m
+[0m[[33mwarn[0m] [0m[0m

@@ -1,0 +1,49 @@
+Spark Command: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /usr/local/spark-2.3.2-bin-hadoop2.7/conf/:/usr/local/spark-2.3.2-bin-hadoop2.7/assembly/target/scala-2.11/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://10.193.232.252:7077
+========================================
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+18/10/30 21:10:28 INFO Worker: Started daemon with process name: 13937@hadoop-master
+18/10/30 21:10:28 INFO SignalUtils: Registered signal handler for TERM
+18/10/30 21:10:28 INFO SignalUtils: Registered signal handler for HUP
+18/10/30 21:10:28 INFO SignalUtils: Registered signal handler for INT
+18/10/30 21:10:29 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/10/30 21:10:29 INFO SecurityManager: Changing view acls to: vm1
+18/10/30 21:10:29 INFO SecurityManager: Changing modify acls to: vm1
+18/10/30 21:10:29 INFO SecurityManager: Changing view acls groups to: 
+18/10/30 21:10:29 INFO SecurityManager: Changing modify acls groups to: 
+18/10/30 21:10:29 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(vm1); groups with view permissions: Set(); users  with modify permissions: Set(vm1); groups with modify permissions: Set()
+18/10/30 21:10:29 INFO Utils: Successfully started service 'sparkWorker' on port 43347.
+18/10/30 21:10:29 INFO Worker: Starting Spark worker 10.193.232.252:43347 with 8 cores, 4.8 GB RAM
+18/10/30 21:10:29 INFO Worker: Running Spark version 2.3.2
+18/10/30 21:10:29 INFO Worker: Spark home: /usr/local/spark-2.3.2-bin-hadoop2.7
+18/10/30 21:10:29 INFO log: Logging initialized @1790ms
+18/10/30 21:10:29 INFO Server: jetty-9.3.24.v20180605, build timestamp: 2018-06-05T12:11:56-05:00, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+18/10/30 21:10:29 INFO Server: Started @1862ms
+18/10/30 21:10:29 INFO AbstractConnector: Started ServerConnector@6103b8c0{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+18/10/30 21:10:29 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+18/10/30 21:10:30 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@3357dd49{/logPage,null,AVAILABLE,@Spark}
+18/10/30 21:10:30 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@6c35a37{/logPage/json,null,AVAILABLE,@Spark}
+18/10/30 21:10:30 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@4f4d4430{/,null,AVAILABLE,@Spark}
+18/10/30 21:10:30 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@739b30f2{/json,null,AVAILABLE,@Spark}
+18/10/30 21:10:30 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@56d29675{/static,null,AVAILABLE,@Spark}
+18/10/30 21:10:30 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@3f77d81e{/log,null,AVAILABLE,@Spark}
+18/10/30 21:10:30 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://hadoop-master:8081
+18/10/30 21:10:30 INFO Worker: Connecting to master 10.193.232.252:7077...
+18/10/30 21:10:30 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@74902b9e{/metrics/json,null,AVAILABLE,@Spark}
+18/10/30 21:10:30 INFO TransportClientFactory: Successfully created connection to /10.193.232.252:7077 after 49 ms (0 ms spent in bootstraps)
+18/10/30 21:10:30 INFO Worker: Successfully registered with master spark://10.193.232.252:7077
+18/10/30 21:10:35 INFO Worker: Asked to launch executor app-20181030211035-0000/2 for engaging_reviews
+18/10/30 21:10:35 INFO SecurityManager: Changing view acls to: vm1
+18/10/30 21:10:35 INFO SecurityManager: Changing modify acls to: vm1
+18/10/30 21:10:35 INFO SecurityManager: Changing view acls groups to: 
+18/10/30 21:10:35 INFO SecurityManager: Changing modify acls groups to: 
+18/10/30 21:10:35 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(vm1); groups with view permissions: Set(); users  with modify permissions: Set(vm1); groups with modify permissions: Set()
+18/10/30 21:10:35 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java" "-cp" "/usr/local/spark-2.3.2-bin-hadoop2.7/conf/:/usr/local/spark-2.3.2-bin-hadoop2.7/assembly/target/scala-2.11/jars/*" "-Xmx1024M" "-Dspark.driver.port=41471" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@hadoop-master:41471" "--executor-id" "2" "--hostname" "10.193.232.252" "--cores" "8" "--app-id" "app-20181030211035-0000" "--worker-url" "spark://Worker@10.193.232.252:43347"
+18/10/30 21:11:09 INFO Worker: Asked to kill executor app-20181030211035-0000/2
+18/10/30 21:11:09 INFO ExecutorRunner: Runner thread for executor app-20181030211035-0000/2 interrupted
+18/10/30 21:11:09 INFO ExecutorRunner: Killing process!
+18/10/30 21:11:09 INFO Worker: Executor app-20181030211035-0000/2 finished with state KILLED exitStatus 0
+18/10/30 21:11:09 INFO ExternalShuffleBlockResolver: Application app-20181030211035-0000 removed, cleanupLocalDirs = true
+18/10/30 21:11:09 INFO Worker: Cleaning up local directories for application app-20181030211035-0000
+18/10/30 21:11:28 ERROR Worker: RECEIVED SIGNAL TERM
+18/10/30 21:11:28 INFO ShutdownHookManager: Shutdown hook called
+18/10/30 21:11:28 INFO ShutdownHookManager: Deleting directory /tmp/spark-bf9ce98b-f634-4388-89c5-c31a087d17f2

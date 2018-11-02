@@ -1,0 +1,38 @@
+Spark Executor Command: "/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java" "-cp" "/usr/local/spark-2.3.2-bin-hadoop2.7/conf/:/usr/local/spark-2.3.2-bin-hadoop2.7/assembly/target/scala-2.11/jars/*" "-Xmx1024M" "-Dspark.driver.port=38609" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@hadoop-master:38609" "--executor-id" "0" "--hostname" "10.193.232.252" "--cores" "8" "--app-id" "app-20181030201022-0001" "--worker-url" "spark://Worker@10.193.232.252:33593"
+========================================
+
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+18/10/30 20:10:23 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 8474@hadoop-master
+18/10/30 20:10:23 INFO SignalUtils: Registered signal handler for TERM
+18/10/30 20:10:23 INFO SignalUtils: Registered signal handler for HUP
+18/10/30 20:10:23 INFO SignalUtils: Registered signal handler for INT
+18/10/30 20:10:24 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/10/30 20:10:24 INFO SecurityManager: Changing view acls to: vm1
+18/10/30 20:10:24 INFO SecurityManager: Changing modify acls to: vm1
+18/10/30 20:10:24 INFO SecurityManager: Changing view acls groups to: 
+18/10/30 20:10:24 INFO SecurityManager: Changing modify acls groups to: 
+18/10/30 20:10:24 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(vm1); groups with view permissions: Set(); users  with modify permissions: Set(vm1); groups with modify permissions: Set()
+18/10/30 20:10:24 INFO TransportClientFactory: Successfully created connection to hadoop-master/10.193.232.252:38609 after 105 ms (0 ms spent in bootstraps)
+18/10/30 20:10:24 INFO SecurityManager: Changing view acls to: vm1
+18/10/30 20:10:24 INFO SecurityManager: Changing modify acls to: vm1
+18/10/30 20:10:24 INFO SecurityManager: Changing view acls groups to: 
+18/10/30 20:10:24 INFO SecurityManager: Changing modify acls groups to: 
+18/10/30 20:10:24 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(vm1); groups with view permissions: Set(); users  with modify permissions: Set(vm1); groups with modify permissions: Set()
+18/10/30 20:10:24 INFO TransportClientFactory: Successfully created connection to hadoop-master/10.193.232.252:38609 after 1 ms (0 ms spent in bootstraps)
+18/10/30 20:10:25 INFO DiskBlockManager: Created local directory at /tmp/spark-52797ae4-3cdf-4ff3-951f-ea672c0feb40/executor-09e59486-dff4-4ed1-bd74-721dee78527e/blockmgr-135b33df-7d17-4415-b03e-37167689122b
+18/10/30 20:10:25 INFO MemoryStore: MemoryStore started with capacity 366.3 MB
+18/10/30 20:10:25 INFO CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@hadoop-master:38609
+18/10/30 20:10:25 INFO WorkerWatcher: Connecting to worker spark://Worker@10.193.232.252:33593
+18/10/30 20:10:25 INFO TransportClientFactory: Successfully created connection to /10.193.232.252:33593 after 3 ms (0 ms spent in bootstraps)
+18/10/30 20:10:25 INFO WorkerWatcher: Successfully connected to spark://Worker@10.193.232.252:33593
+18/10/30 20:10:25 INFO CoarseGrainedExecutorBackend: Successfully registered with driver
+18/10/30 20:10:25 INFO Executor: Starting executor ID 0 on host 10.193.232.252
+18/10/30 20:10:25 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 46195.
+18/10/30 20:10:25 INFO NettyBlockTransferService: Server created on 10.193.232.252:46195
+18/10/30 20:10:25 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+18/10/30 20:10:25 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(0, 10.193.232.252, 46195, None)
+18/10/30 20:10:25 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(0, 10.193.232.252, 46195, None)
+18/10/30 20:10:25 INFO BlockManager: Initialized BlockManager: BlockManagerId(0, 10.193.232.252, 46195, None)
+18/10/30 20:10:28 INFO CoarseGrainedExecutorBackend: Driver commanded a shutdown
+18/10/30 20:10:28 ERROR CoarseGrainedExecutorBackend: RECEIVED SIGNAL TERM
+tdown

@@ -1,0 +1,133 @@
+Spark Executor Command: "/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java" "-cp" "/usr/local/spark-2.3.2-bin-hadoop2.7/conf/:/usr/local/spark-2.3.2-bin-hadoop2.7/assembly/target/scala-2.11/jars/*" "-Xmx1024M" "-Dspark.driver.port=44095" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@hadoop-master:44095" "--executor-id" "1" "--hostname" "10.193.232.252" "--cores" "8" "--app-id" "app-20181102160514-0000" "--worker-url" "spark://Worker@10.193.232.252:37779"
+========================================
+
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+18/11/02 16:05:15 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 12946@hadoop-master
+18/11/02 16:05:15 INFO SignalUtils: Registered signal handler for TERM
+18/11/02 16:05:15 INFO SignalUtils: Registered signal handler for HUP
+18/11/02 16:05:15 INFO SignalUtils: Registered signal handler for INT
+18/11/02 16:05:15 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/11/02 16:05:15 INFO SecurityManager: Changing view acls to: vm1
+18/11/02 16:05:15 INFO SecurityManager: Changing modify acls to: vm1
+18/11/02 16:05:15 INFO SecurityManager: Changing view acls groups to: 
+18/11/02 16:05:15 INFO SecurityManager: Changing modify acls groups to: 
+18/11/02 16:05:15 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(vm1); groups with view permissions: Set(); users  with modify permissions: Set(vm1); groups with modify permissions: Set()
+18/11/02 16:05:15 ERROR NettyRpcEnv: log warning without client
+
+
+
+
+RpcOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=175 cap=296],<function1>,<function2>)
+18/11/02 16:05:16 INFO TransportClientFactory: Successfully created connection to hadoop-master/10.193.232.252:44095 after 105 ms (0 ms spent in bootstraps)
+18/11/02 16:05:16 ERROR NettyRpcEnv: log warning without client
+
+
+
+
+RpcOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=153 cap=302],<function1>,<function2>)
+18/11/02 16:05:16 INFO SecurityManager: Changing view acls to: vm1
+18/11/02 16:05:16 INFO SecurityManager: Changing modify acls to: vm1
+18/11/02 16:05:16 INFO SecurityManager: Changing view acls groups to: 
+18/11/02 16:05:16 INFO SecurityManager: Changing modify acls groups to: 
+18/11/02 16:05:16 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(vm1); groups with view permissions: Set(); users  with modify permissions: Set(vm1); groups with modify permissions: Set()
+18/11/02 16:05:16 ERROR NettyRpcEnv: log warning without client
+
+
+
+
+RpcOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=169 cap=296],<function1>,<function2>)
+18/11/02 16:05:16 INFO TransportClientFactory: Successfully created connection to hadoop-master/10.193.232.252:44095 after 3 ms (0 ms spent in bootstraps)
+18/11/02 16:05:16 ERROR NettyRpcEnv: log warning without client
+
+
+
+
+RpcOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=171 cap=296],<function1>,<function2>)
+18/11/02 16:05:16 ERROR BlockManagerMaster: init a block manager master
+
+
+
+
+
+
+18/11/02 16:05:16 INFO DiskBlockManager: Created local directory at /tmp/spark-17854616-888c-4f5e-8bb7-e7bd8867c1f1/executor-3e735a29-4542-4184-9816-0134545e58c7/blockmgr-6e86bf40-5b1d-41ad-9326-69b8ec17a92d
+18/11/02 16:05:16 INFO MemoryStore: MemoryStore started with capacity 366.3 MB
+18/11/02 16:05:16 ERROR NettyRpcEnv: log warning without client
+
+
+
+
+RpcOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=176 cap=296],<function1>,<function2>)
+18/11/02 16:05:16 INFO WorkerWatcher: Connecting to worker spark://Worker@10.193.232.252:37779
+18/11/02 16:05:16 ERROR NettyRpcEnv: log warning without client
+
+
+
+
+RpcOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=160 cap=298],<function1>,<function2>)
+18/11/02 16:05:16 INFO CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@hadoop-master:44095
+18/11/02 16:05:16 ERROR NettyRpcEnv: log warning without client
+
+
+
+
+RpcOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=175 cap=296],<function1>,<function2>)
+18/11/02 16:05:16 INFO TransportClientFactory: Successfully created connection to /10.193.232.252:37779 after 11 ms (0 ms spent in bootstraps)
+18/11/02 16:05:16 INFO WorkerWatcher: Successfully connected to spark://Worker@10.193.232.252:37779
+18/11/02 16:05:16 ERROR NettyRpcEnv: log warning without client
+
+
+
+
+RpcOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1495 cap=2408],<function1>,<function2>)
+18/11/02 16:05:16 INFO CoarseGrainedExecutorBackend: Successfully registered with driver
+18/11/02 16:05:16 INFO Executor: Starting executor ID 1 on host 10.193.232.252
+18/11/02 16:05:16 INFO Utils: 
+
+
+
+1234567Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 37923.
+18/11/02 16:05:16 INFO NettyBlockTransferService: Server created on 10.193.232.252:37923
+18/11/02 16:05:16 INFO BlockManager: heyhyehy
+
+
+
+e
+18/11/02 16:05:16 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+18/11/02 16:05:16 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(1, 10.193.232.252, 37923, None)
+18/11/02 16:05:16 ERROR NettyRpcEnv: log warning without client
+
+
+
+
+RpcOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1255 cap=2200],<function1>,<function2>)
+18/11/02 16:05:16 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(1, 10.193.232.252, 37923, None)
+18/11/02 16:05:16 INFO BlockManager: Initialized BlockManager: BlockManagerId(1, 10.193.232.252, 37923, None)
+18/11/02 16:05:16 ERROR NettyRpcEnv: log warning without client
+
+
+
+
+RpcOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=170 cap=296],<function1>,<function2>)
+18/11/02 16:05:28 ERROR NettyRpcEnv: log warning without client
+
+
+
+
+RpcOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=338 cap=426],<function1>,<function2>)
+18/11/02 16:05:38 ERROR NettyRpcEnv: log warning without client
+
+
+
+
+RpcOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=338 cap=426],<function1>,<function2>)
+18/11/02 16:05:48 ERROR NettyRpcEnv: log warning without client
+
+
+
+
+RpcOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=338 cap=426],<function1>,<function2>)
+18/11/02 16:05:48 INFO CoarseGrainedExecutorBackend: Driver commanded a shutdown
+18/11/02 16:05:48 INFO MemoryStore: MemoryStore cleared
+18/11/02 16:05:48 INFO BlockManager: BlockManager stopped
+18/11/02 16:05:48 INFO ShutdownHookManager: Shutdown hook called

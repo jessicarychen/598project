@@ -1,0 +1,108 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/AlphaComponent.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Private.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Experimental.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/Since.scala, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/InterfaceStability.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package-info.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/DeveloperApi.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/AlphaComponent.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Private.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Experimental.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/Since.scala, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/InterfaceStability.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package-info.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/DeveloperApi.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/AlphaComponent.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Private.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Experimental.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/Since.scala, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/InterfaceStability.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package-info.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/DeveloperApi.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/AlphaComponent.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Private.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Experimental.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/Since.scala, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/InterfaceStability.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package-info.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/DeveloperApi.java, /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 8 sources: invalidated sources (8) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources and 6 Java sources to /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 7302c912, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-explaintypes[0m
+[0m[[0mdebug[0m] [0m	-Yno-adapted-args[0m
+[0m[[0mdebug[0m] [0m	-P:genjavadoc:out=/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/target/java[0m
+[0m[[0mdebug[0m] [0m	-P:genjavadoc:strictVisibility=true[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/home/vm1/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar[0m
+[0m[[0mdebug[0m] [0m	-target:jvm-1.8[0m
+[0m[[0mdebug[0m] [0m	-sourcepath[0m
+[0m[[0mdebug[0m] [0m	/usr/local/spark-2.3.2-bin-hadoop2.7[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/vm1/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/target/scala-2.11/classes:/home/vm1/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar:/home/vm1/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar:/home/vm1/.ivy2/cache/org.jpmml/pmml-model/jars/pmml-model-1.2.15.jar:/home/vm1/.ivy2/cache/org.jpmml/pmml-schema/jars/pmml-schema-1.2.15.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 6.678537179 s[0m
+[0m[[0mdebug[0m] [0mJava compilation took 1.169161335 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.024594021 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 1.201106555 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Private.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Private.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Private.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Private.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Private.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	equals, toString, Private, hashCode, annotationType.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Private.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/InterfaceStability.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/InterfaceStability.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/InterfaceStability.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/InterfaceStability.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/InterfaceStability.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, equals, InterfaceStability$Unstable, notifyAll, InterfaceStability, <init>, InterfaceStability$Evolving, InterfaceStability$Stable, toString, getClass, hashCode, annotationType.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/InterfaceStability.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, package, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/AlphaComponent.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/AlphaComponent.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/AlphaComponent.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/AlphaComponent.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/AlphaComponent.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	equals, toString, AlphaComponent, hashCode, annotationType.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/AlphaComponent.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package-info.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package-info.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package-info.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package-info.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/package-info.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/DeveloperApi.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/DeveloperApi.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/DeveloperApi.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/DeveloperApi.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/DeveloperApi.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	equals, DeveloperApi, toString, hashCode, annotationType.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/DeveloperApi.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/Since.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/Since.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/Since.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/Since.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/scala/org/apache/spark/annotation/Since.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, Since, isInstanceOf, <init>, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Experimental.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Experimental.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Experimental.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Experimental.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Experimental.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	equals, Experimental, toString, hashCode, annotationType.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /usr/local/spark-2.3.2-bin-hadoop2.7/common/tags/src/main/java/org/apache/spark/annotation/Experimental.java[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

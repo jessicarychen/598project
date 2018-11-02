@@ -1,0 +1,10 @@
+[0m[[0minfo[0m] [0mscalastyle using config /usr/local/spark-2.3.2-bin-hadoop2.7/scalastyle-on-compile.generated.xml[0m
+[0m[[0mdebug[0m] [0mStarting scalastyle[0m
+[0m[[0mdebug[0m] [0mstart file /usr/local/spark-2.3.2-bin-hadoop2.7/tools/src/main/scala/org/apache/spark/tools/GenerateMIMAIgnore.scala[0m
+[0m[[0mdebug[0m] [0mend file /usr/local/spark-2.3.2-bin-hadoop2.7/tools/src/main/scala/org/apache/spark/tools/GenerateMIMAIgnore.scala[0m
+[0m[[0minfo[0m] [0mscalastyle Processed 1 file(s)[0m
+[0m[[0minfo[0m] [0mscalastyle Found 0 errors[0m
+[0m[[0minfo[0m] [0mscalastyle Found 0 warnings[0m
+[0m[[0minfo[0m] [0mscalastyle Found 0 infos[0m
+[0m[[0minfo[0m] [0mscalastyle Finished in 4 ms[0m
+[0m[[32msuccess[0m] [0mcreated output: /usr/local/spark-2.3.2-bin-hadoop2.7/tools/target[0m

@@ -1,0 +1,180 @@
+Spark Command: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /usr/local/spark-2.3.2-bin-hadoop2.7/conf/:/usr/local/spark-2.3.2-bin-hadoop2.7/assembly/target/scala-2.11/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host 10.193.232.252 --port 7077 --webui-port 8080
+========================================
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+18/11/02 16:02:53 INFO Master: Started daemon with process name: 12555@hadoop-master
+18/11/02 16:02:53 INFO SignalUtils: Registered signal handler for TERM
+18/11/02 16:02:53 INFO SignalUtils: Registered signal handler for HUP
+18/11/02 16:02:53 INFO SignalUtils: Registered signal handler for INT
+18/11/02 16:02:53 WARN MasterArguments: SPARK_MASTER_IP is deprecated, please use SPARK_MASTER_HOST
+18/11/02 16:02:54 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/11/02 16:02:54 INFO SecurityManager: Changing view acls to: vm1
+18/11/02 16:02:54 INFO SecurityManager: Changing modify acls to: vm1
+18/11/02 16:02:54 INFO SecurityManager: Changing view acls groups to: 
+18/11/02 16:02:54 INFO SecurityManager: Changing modify acls groups to: 
+18/11/02 16:02:54 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(vm1); groups with view permissions: Set(); users  with modify permissions: Set(vm1); groups with modify permissions: Set()
+18/11/02 16:02:54 INFO Utils: 
+
+
+
+1234567Successfully started service 'sparkMaster' on port 7077.
+18/11/02 16:02:54 INFO Master: Starting Spark master at spark://10.193.232.252:7077
+18/11/02 16:02:54 INFO Master: Running Spark version 2.3.2
+18/11/02 16:02:54 INFO log: Logging initialized @1635ms
+18/11/02 16:02:54 INFO Server: jetty-9.3.24.v20180605, build timestamp: 2018-06-05T12:11:56-05:00, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+18/11/02 16:02:54 INFO Server: Started @1708ms
+18/11/02 16:02:54 INFO AbstractConnector: Started ServerConnector@42a59b2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+18/11/02 16:02:54 INFO Utils: 
+
+
+
+1234567Successfully started service 'MasterUI' on port 8080.
+18/11/02 16:02:54 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@56f46972{/app,null,AVAILABLE,@Spark}
+18/11/02 16:02:54 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@565abca1{/app/json,null,AVAILABLE,@Spark}
+18/11/02 16:02:54 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@2d986404{/,null,AVAILABLE,@Spark}
+18/11/02 16:02:54 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@60130970{/json,null,AVAILABLE,@Spark}
+18/11/02 16:02:54 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@632f1e67{/static,null,AVAILABLE,@Spark}
+18/11/02 16:02:54 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@1a8ffc0c{/app/kill,null,AVAILABLE,@Spark}
+18/11/02 16:02:54 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@1360e835{/driver/kill,null,AVAILABLE,@Spark}
+18/11/02 16:02:54 INFO MasterWebUI: Bound MasterWebUI to 0.0.0.0, and started at http://hadoop-master:8080
+18/11/02 16:02:54 INFO Server: jetty-9.3.24.v20180605, build timestamp: 2018-06-05T12:11:56-05:00, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+18/11/02 16:02:54 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@372b18cf{/,null,AVAILABLE}
+18/11/02 16:02:54 INFO AbstractConnector: Started ServerConnector@509fdb27{HTTP/1.1,[http/1.1]}{10.193.232.252:6066}
+18/11/02 16:02:54 INFO Server: Started @1832ms
+18/11/02 16:02:54 INFO Utils: 
+
+
+
+1234567Successfully started service on port 6066.
+18/11/02 16:02:54 INFO StandaloneRestServer: Started REST server for submitting applications on port 6066
+18/11/02 16:02:55 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@17ad766b{/metrics/master/json,null,AVAILABLE,@Spark}
+18/11/02 16:02:55 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@78e1b76d{/metrics/applications/json,null,AVAILABLE,@Spark}
+18/11/02 16:02:55 INFO Master: I have been elected leader! New state: ALIVE
+18/11/02 16:02:58 INFO Master: Registering worker 10.193.232.252:37779 with 8 cores, 4.8 GB RAM
+18/11/02 16:02:58 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1223 cap=2104])
+18/11/02 16:02:58 INFO Master: Registering worker 10.195.70.118:44477 with 8 cores, 4.8 GB RAM
+18/11/02 16:02:58 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1222 cap=2096])
+18/11/02 16:02:59 INFO Master: Registering worker 10.193.46.52:42857 with 8 cores, 4.8 GB RAM
+18/11/02 16:02:59 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1221 cap=2088])
+18/11/02 16:05:14 INFO Master: Registering app engaging_reviews
+18/11/02 16:05:14 INFO Master: Registered app engaging_reviews with ID app-20181102160514-0000
+18/11/02 16:05:14 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1170 cap=1672])
+18/11/02 16:05:14 INFO Master: Launching executor app-20181102160514-0000/0 on worker worker-20181102160258-10.193.46.52-42857
+18/11/02 16:05:14 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1641 cap=2024])
+18/11/02 16:05:14 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=271 cap=386])
+18/11/02 16:05:14 INFO Master: Launching executor app-20181102160514-0000/1 on worker worker-20181102160257-10.193.232.252-37779
+18/11/02 16:05:14 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1643 cap=2040])
+18/11/02 16:05:14 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=275 cap=386])
+18/11/02 16:05:14 INFO Master: Launching executor app-20181102160514-0000/2 on worker worker-20181102160258-10.195.70.118-44477
+18/11/02 16:05:14 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1642 cap=2032])
+18/11/02 16:05:14 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=273 cap=386])
+18/11/02 16:05:14 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1348 cap=1792])
+18/11/02 16:05:14 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1348 cap=1792])
+18/11/02 16:05:14 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1348 cap=1792])
+18/11/02 16:05:48 INFO Master: Received unregister request from application app-20181102160514-0000
+18/11/02 16:05:48 INFO Master: Removing app app-20181102160514-0000
+18/11/02 16:05:48 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=236 cap=348])
+18/11/02 16:05:48 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=237 cap=350])
+18/11/02 16:05:48 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=235 cap=346])
+18/11/02 16:05:48 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=180 cap=304])
+18/11/02 16:05:48 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=181 cap=306])
+18/11/02 16:05:48 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=179 cap=302])
+18/11/02 16:05:48 WARN Master: Got status update for unknown executor app-20181102160514-0000/1
+18/11/02 16:05:48 INFO Master: 10.193.232.252:42492 got disassociated, removing it.
+18/11/02 16:05:48 INFO Master: hadoop-master:44095 got disassociated, removing it.
+18/11/02 16:05:49 WARN Master: Got status update for unknown executor app-20181102160514-0000/0
+18/11/02 16:05:49 WARN Master: Got status update for unknown executor app-20181102160514-0000/2

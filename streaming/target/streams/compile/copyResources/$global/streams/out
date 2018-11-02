@@ -1,0 +1,9 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/src/main/resources/org,/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/target/scala-2.11/classes/org)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/src/main/resources/org/apache,/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/target/scala-2.11/classes/org/apache)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/src/main/resources/org/apache/spark,/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/target/scala-2.11/classes/org/apache/spark)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/src/main/resources/org/apache/spark/streaming,/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/target/scala-2.11/classes/org/apache/spark/streaming)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/src/main/resources/org/apache/spark/streaming/ui,/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/target/scala-2.11/classes/org/apache/spark/streaming/ui)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/src/main/resources/org/apache/spark/streaming/ui/static,/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/target/scala-2.11/classes/org/apache/spark/streaming/ui/static)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/src/main/resources/org/apache/spark/streaming/ui/static/streaming-page.js,/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/target/scala-2.11/classes/org/apache/spark/streaming/ui/static/streaming-page.js)[0m
+[0m[[0mdebug[0m] [0m	(/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/src/main/resources/org/apache/spark/streaming/ui/static/streaming-page.css,/usr/local/spark-2.3.2-bin-hadoop2.7/streaming/target/scala-2.11/classes/org/apache/spark/streaming/ui/static/streaming-page.css)[0m

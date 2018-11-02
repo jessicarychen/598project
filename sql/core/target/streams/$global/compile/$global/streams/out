@@ -1,0 +1,15 @@
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/sql/core/src/main/scala/org/apache/spark/sql/execution/streaming/TriggerExecutor.scala:46: class ProcessingTime in package streaming is deprecated: use Trigger.ProcessingTime(intervalMs)[0m
+[0m[[33mwarn[0m] [0mcase class ProcessingTimeExecutor(processingTime: ProcessingTime, clock: Clock = new SystemClock())[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/sql/core/src/main/scala/org/apache/spark/sql/execution/streaming/TriggerExecutor.scala:46: class ProcessingTime in package streaming is deprecated: use Trigger.ProcessingTime(intervalMs)[0m
+[0m[[33mwarn[0m] [0mcase class ProcessingTimeExecutor(processingTime: ProcessingTime, clock: Clock = new SystemClock())[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/sql/core/src/main/scala/org/apache/spark/sql/execution/streaming/TriggerExecutor.scala:46: class ProcessingTime in package streaming is deprecated: use Trigger.ProcessingTime(intervalMs)[0m
+[0m[[33mwarn[0m] [0mcase class ProcessingTimeExecutor(processingTime: ProcessingTime, clock: Clock = new SystemClock())[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/sql/core/src/main/scala/org/apache/spark/sql/execution/streaming/TriggerExecutor.scala:46: class ProcessingTime in package streaming is deprecated: use Trigger.ProcessingTime(intervalMs)[0m
+[0m[[33mwarn[0m] [0mcase class ProcessingTimeExecutor(processingTime: ProcessingTime, clock: Clock = new SystemClock())[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/usr/local/spark-2.3.2-bin-hadoop2.7/sql/core/src/main/scala/org/apache/spark/sql/execution/streaming/TriggerExecutor.scala:46: class ProcessingTime in package streaming is deprecated: use Trigger.ProcessingTime(intervalMs)[0m
+[0m[[33mwarn[0m] [0mcase class ProcessingTimeExecutor(processingTime: ProcessingTime, clock: Clock = new SystemClock())[0m
+[0m[[33mwarn[0m] [0m[0m

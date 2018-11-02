@@ -1,0 +1,231 @@
+Spark Command: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /usr/local/spark-2.3.2-bin-hadoop2.7/conf/:/usr/local/spark-2.3.2-bin-hadoop2.7/assembly/target/scala-2.11/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host 10.193.232.252 --port 7077 --webui-port 8080
+========================================
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+18/10/30 21:31:05 INFO Master: Started daemon with process name: 17762@hadoop-master
+18/10/30 21:31:05 INFO SignalUtils: Registered signal handler for TERM
+18/10/30 21:31:05 INFO SignalUtils: Registered signal handler for HUP
+18/10/30 21:31:05 INFO SignalUtils: Registered signal handler for INT
+18/10/30 21:31:05 WARN MasterArguments: SPARK_MASTER_IP is deprecated, please use SPARK_MASTER_HOST
+18/10/30 21:31:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/10/30 21:31:05 INFO SecurityManager: Changing view acls to: vm1
+18/10/30 21:31:05 INFO SecurityManager: Changing modify acls to: vm1
+18/10/30 21:31:05 INFO SecurityManager: Changing view acls groups to: 
+18/10/30 21:31:05 INFO SecurityManager: Changing modify acls groups to: 
+18/10/30 21:31:05 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(vm1); groups with view permissions: Set(); users  with modify permissions: Set(vm1); groups with modify permissions: Set()
+18/10/30 21:31:06 INFO Utils: 
+
+
+
+1234567Successfully started service 'sparkMaster' on port 7077.
+18/10/30 21:31:06 INFO Master: Starting Spark master at spark://10.193.232.252:7077
+18/10/30 21:31:06 INFO Master: Running Spark version 2.3.2
+18/10/30 21:31:06 INFO log: Logging initialized @2282ms
+18/10/30 21:31:06 INFO Server: jetty-9.3.24.v20180605, build timestamp: 2018-06-05T12:11:56-05:00, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+18/10/30 21:31:06 INFO Server: Started @2361ms
+18/10/30 21:31:06 INFO AbstractConnector: Started ServerConnector@7ae4b0f7{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+18/10/30 21:31:06 INFO Utils: 
+
+
+
+1234567Successfully started service 'MasterUI' on port 8080.
+18/10/30 21:31:06 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@287b57db{/app,null,AVAILABLE,@Spark}
+18/10/30 21:31:06 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@6e551de7{/app/json,null,AVAILABLE,@Spark}
+18/10/30 21:31:06 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@19aaca87{/,null,AVAILABLE,@Spark}
+18/10/30 21:31:06 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@3e58b2e9{/json,null,AVAILABLE,@Spark}
+18/10/30 21:31:06 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@78243ae0{/static,null,AVAILABLE,@Spark}
+18/10/30 21:31:06 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@746a4fd0{/app/kill,null,AVAILABLE,@Spark}
+18/10/30 21:31:06 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@5ece3c20{/driver/kill,null,AVAILABLE,@Spark}
+18/10/30 21:31:06 INFO MasterWebUI: Bound MasterWebUI to 0.0.0.0, and started at http://hadoop-master:8080
+18/10/30 21:31:06 INFO Server: jetty-9.3.24.v20180605, build timestamp: 2018-06-05T12:11:56-05:00, git hash: 84205aa28f11a4f31f2a3b86d1bba2cc8ab69827
+18/10/30 21:31:06 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@7f42bed7{/,null,AVAILABLE}
+18/10/30 21:31:06 INFO AbstractConnector: Started ServerConnector@48a97800{HTTP/1.1,[http/1.1]}{10.193.232.252:6066}
+18/10/30 21:31:06 INFO Server: Started @2548ms
+18/10/30 21:31:06 INFO Utils: 
+
+
+
+1234567Successfully started service on port 6066.
+18/10/30 21:31:06 INFO StandaloneRestServer: Started REST server for submitting applications on port 6066
+18/10/30 21:31:06 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@2ae85d34{/metrics/master/json,null,AVAILABLE,@Spark}
+18/10/30 21:31:06 INFO ContextHandler: Started o.e.j.s.ServletContextHandler@3aaf55f2{/metrics/applications/json,null,AVAILABLE,@Spark}
+18/10/30 21:31:06 INFO Master: I have been elected leader! New state: ALIVE
+18/10/30 21:31:09 INFO Master: Registering worker 10.195.70.118:36847 with 8 cores, 4.8 GB RAM
+18/10/30 21:31:09 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1222 cap=2096])
+18/10/30 21:31:09 INFO Master: Registering worker 10.193.46.52:41761 with 8 cores, 4.8 GB RAM
+18/10/30 21:31:09 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1221 cap=2088])
+18/10/30 21:31:09 INFO Master: Registering worker 10.193.232.252:45199 with 8 cores, 4.8 GB RAM
+18/10/30 21:31:09 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1223 cap=2104])
+18/10/30 21:31:25 INFO Master: Registering app engaging_reviews
+18/10/30 21:31:25 INFO Master: Registered app engaging_reviews with ID app-20181030213125-0000
+18/10/30 21:31:25 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1170 cap=1672])
+18/10/30 21:31:25 INFO Master: Launching executor app-20181030213125-0000/0 on worker worker-20181030213108-10.193.232.252-45199
+18/10/30 21:31:25 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1643 cap=2040])
+18/10/30 21:31:25 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=275 cap=386])
+18/10/30 21:31:25 INFO Master: Launching executor app-20181030213125-0000/1 on worker worker-20181030213108-10.193.46.52-41761
+18/10/30 21:31:25 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1641 cap=2024])
+18/10/30 21:31:25 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=271 cap=386])
+18/10/30 21:31:25 INFO Master: Launching executor app-20181030213125-0000/2 on worker worker-20181030213108-10.195.70.118-36847
+18/10/30 21:31:25 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1642 cap=2032])
+18/10/30 21:31:25 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=273 cap=386])
+18/10/30 21:31:26 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1348 cap=1792])
+18/10/30 21:31:26 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1348 cap=1792])
+18/10/30 21:31:26 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1348 cap=1792])
+18/10/30 21:31:59 INFO Master: Received unregister request from application app-20181030213125-0000
+18/10/30 21:31:59 INFO Master: Removing app app-20181030213125-0000
+18/10/30 21:31:59 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=236 cap=348])
+18/10/30 21:31:59 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=235 cap=346])
+18/10/30 21:31:59 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=237 cap=350])
+18/10/30 21:31:59 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=180 cap=304])
+18/10/30 21:31:59 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=179 cap=302])
+18/10/30 21:31:59 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=181 cap=306])
+18/10/30 21:31:59 INFO Master: 10.193.232.252:60326 got disassociated, removing it.
+18/10/30 21:31:59 INFO Master: hadoop-master:39223 got disassociated, removing it.
+18/10/30 21:31:59 WARN Master: Got status update for unknown executor app-20181030213125-0000/1
+18/10/30 21:31:59 WARN Master: Got status update for unknown executor app-20181030213125-0000/0
+18/10/30 21:32:00 WARN Master: Got status update for unknown executor app-20181030213125-0000/2
+18/10/31 08:45:26 WARN Master: Removing worker-20181030213108-10.195.70.118-36847 because we got no heartbeat in 60 seconds
+18/10/31 08:45:26 INFO Master: Removing worker worker-20181030213108-10.195.70.118-36847 on 10.195.70.118:36847
+18/10/31 08:45:26 INFO Master: Telling app of lost worker: worker-20181030213108-10.195.70.118-36847
+18/10/31 08:45:26 WARN Master: Removing worker-20181030213108-10.193.46.52-41761 because we got no heartbeat in 60 seconds
+18/10/31 08:45:26 INFO Master: Removing worker worker-20181030213108-10.193.46.52-41761 on 10.193.46.52:41761
+18/10/31 08:45:26 INFO Master: Telling app of lost worker: worker-20181030213108-10.193.46.52-41761
+18/10/31 08:45:26 WARN Master: Removing worker-20181030213108-10.193.232.252-45199 because we got no heartbeat in 60 seconds
+18/10/31 08:45:26 INFO Master: Removing worker worker-20181030213108-10.193.232.252-45199 on 10.193.232.252:45199
+18/10/31 08:45:26 INFO Master: Telling app of lost worker: worker-20181030213108-10.193.232.252-45199
+18/10/31 08:45:28 WARN Master: Got heartbeat from unregistered worker worker-20181030213108-10.195.70.118-36847. Asking it to re-register.
+18/10/31 08:45:28 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=187 cap=310])
+18/10/31 08:45:28 INFO Master: Registering worker 10.195.70.118:36847 with 8 cores, 4.8 GB RAM
+18/10/31 08:45:28 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1222 cap=2096])
+18/10/31 08:45:28 WARN Master: Got heartbeat from unregistered worker worker-20181030213108-10.193.46.52-41761. Asking it to re-register.
+18/10/31 08:45:28 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=186 cap=308])
+18/10/31 08:45:28 INFO Master: Registering worker 10.193.46.52:41761 with 8 cores, 4.8 GB RAM
+18/10/31 08:45:28 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1221 cap=2088])
+18/10/31 08:45:28 WARN Master: Got heartbeat from unregistered worker worker-20181030213108-10.193.232.252-45199. Asking it to re-register.
+18/10/31 08:45:28 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=188 cap=312])
+18/10/31 08:45:28 INFO Master: Registering worker 10.193.232.252:45199 with 8 cores, 4.8 GB RAM
+18/10/31 08:45:28 ERROR NettyRpcEnv: log warning with client
+
+
+
+
+OneWayOutboxMessage(java.nio.HeapByteBuffer[pos=0 lim=1223 cap=2104])
